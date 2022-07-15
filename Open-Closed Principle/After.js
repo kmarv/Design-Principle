@@ -42,7 +42,8 @@ class RangeQuestion {
   }
   PrintQuestion() {
     console.log(this.description);
-    console.log(`Answer: ___________________`);
+    console.log(`min: ___________________`);
+    console.log(`max: ___________________`);
   }
 }
 
@@ -50,5 +51,5 @@ const questions = [
     new BooleanQuestion("Is this a boolean question?"),
     new MultipleChoiceQuestion("What is your favorite color?", ["Red", "Blue", "Green", "Yellow"]),
     new TextQuestion("What is your name?"),
-    new RangeQuestion("What is your age?", 18, 65)
+    new RangeQuestion("What is your age range?", 18, 65)
 ];
