@@ -1,3 +1,5 @@
+// code that satisfies the dependency inversion principle
+
 class Store {
   constructor(paymentProcessor) {
     this.paymentProcessor = paymentProcessor;
